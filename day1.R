@@ -2,7 +2,7 @@
 
 # Part One ----------------------------------------------------------------
 
-input <- as.numeric(readLines("input.txt"))
+input <- as.numeric(readLines("input1.txt"))
 calories <- split(input, cumsum(is.na(input)))
 sum_cals <- sapply(calories, sum, na.rm = TRUE)
 max(sum_cals)
