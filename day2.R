@@ -3,8 +3,8 @@
 # Part One ----------------------------------------------------------------
 
 input <- read.table("input2.txt")
-combinations <- c("CZ" = 3,"BY" = 3,"AX" = 3, 
-                  "AZ" = 0, "CY" = 0,"BX" = 0,
+combinations <- c("CZ" = 3,"BY" = 3, "AX" = 3, 
+                  "AZ" = 0, "CY" = 0, "BX" = 0,
                   "BZ" = 6, "AY" = 6, "CX" = 6)
 scores <- c("X" = 1, "Y" = 2,"Z" = 3)
 
